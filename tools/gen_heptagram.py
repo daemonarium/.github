@@ -30,7 +30,7 @@ def main() -> None:
     cmds.append(f"L {points[i][0]:.3f} {points[i][1]:.3f}")
   cmds.append("Z")
   star = " ".join(cmds)
-  svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {SIZE} {SIZE}" fill="none" stroke="{COLOR}" stroke-width="{STROKE}" stroke-linejoin="round" stroke-linecap="round">
+  svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{SIZE}" height="{SIZE}" viewBox="0 0 {SIZE} {SIZE}" fill="none" stroke="{COLOR}" stroke-width="{STROKE}" stroke-linejoin="round" stroke-linecap="round">
   <circle cx="{CX:.0f}" cy="{CY:.0f}" r="{RADIUS:.0f}"/>
   <path d="{star}"/>
 </svg>

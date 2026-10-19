@@ -1,6 +1,6 @@
 # Daemonarium
 
-![Heptagram](logo.svg)
+<img src="logo.svg" alt="Heptagram" width="96" height="96">
 
 Daemonarium is a sandboxed process runtime. The guest is WebAssembly. Native hosts, and a Node host, sit beside it so a process can reach a filesystem or a database without leaving the box. Processes do not call each other. They pass messages on kernel sockets. The same contract is meant to run on Node, in the browser, and on a native WebAssembly machine, so an isomorphic application behaves the same in each place.
 
