@@ -28,8 +28,6 @@ Satellites land one repository at a time. The intended set:
 - a host filesystem behind the socket contract, not WASI
 - a chart and rendering stack that already uses the same session machinery
 
-[Wizards Ephemeris](https://github.com/wizards-ephemeris/wizards-ephemeris) is a separate library, under its own organization. Daemonarium links to it. It does not absorb it.
-
 ## License
 
 MIT. Copyright (c) 2026 Magowie Sp. z o.o.
